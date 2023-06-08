@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Tilt+Prism&display=swap');
+
+/* Estilização do cabeçalho */
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    line-height: 150%;
+}
+
+.header{
+    background-color: blue;
+    align-items: center;
+    padding: 14px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.header h1{
+    color: black;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Puddles', cursive;
+    
+}
+
+.header .social a{
+    padding: 0 5;
+    text-decoration: nome;
+}
+
+/* Estilização de menu lateral */
+
+.left{
+    float: left;
+    width: 180px;
+    background-color: white;
+    height: 550px;
+    padding: 1em;
+}
+.left img{
+    margin-top:9px ;
+    margin-left:8px ;
+    
+}
+
+
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active{
+    background-color: rgb(20, 19, 20);
+    color: white;
+    margin: 5px;
+}
+
+
+
+
+/* Estilização principal */
+
+.content{
+    margin-left: 200px;
+    border-left: 2px solid grey;
+    padding: 1em;
+}
+
+/* Estilização da tabela */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 40px 0;
+}
+
+td,th {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+tr:nth-child(1) {
+    background-color: blue;
+    color:black;
+}
+
+tr td i.fan-brands{
+    text-align: center;
+    display: block;
+    font-size: 35px;
+}
+
+/* Estilização dp rodapé */
+
+.footer{
+    background-color: blue;
+    padding: 35px 10px;
+
+}
+
